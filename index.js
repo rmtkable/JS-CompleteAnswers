@@ -10,6 +10,10 @@ As you write code, you should regularly add comments to clarify the function of 
 
 // Try creating one of each type of comment.
 
+// This is a comment
+
+/* this is a 
+multi-line comment */
 
 
 
@@ -30,12 +34,14 @@ As you write code, you should regularly add comments to clarify the function of 
 
 // Use the var keyword to create a variable called myName.
 
+var myName;
 
 
 
 // 3 Basic JavaScript: Storing Values with the Assignment Operator
 // In JavaScript, you can store a value in a variable with the assignment operator (=).
 
+//var myVariable;
 // myVariable = 5;
 
 // This assigns the Number value 5 to myVariable.
@@ -52,7 +58,7 @@ As you write code, you should regularly add comments to clarify the function of 
 var a;
 
 // Only change code below this line
-
+a = 7;
 
 
 
@@ -66,7 +72,7 @@ var a;
 // Creates a new variable called myVar and assigns it an initial value of 0.
 
 // Define a variable a with var and initialize it to a value of 9.
-
+var a = 9;
 
 
 
@@ -78,9 +84,9 @@ var a;
 
 
 // Only change code below this line
-var a;
-var b;
-var c;
+var a = 5;
+var b = 10;
+var c ="I am a";
 // Only change code above this line
 
 a = a + 1;
@@ -104,14 +110,14 @@ c = c + " String!";
 // Do not create any new variables.
 
 // Variable declarations
-var StUdLyCapVaR;
+var studlyCapVar;
 var properCamelCase;
-var TitleCaseOver;
+var titleCaseOver;
 
 // Variable assignments
-STUDLYCAPVAR = 10;
-PRoperCAmelCAse = "A String";
-tITLEcASEoVER = 9000;
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
 
 // 7 Basic JavaScript: Add Two Numbers with JavaScript
 // Number is a data type in JavaScript which represents numeric data.
@@ -124,7 +130,7 @@ tITLEcASEoVER = 9000;
 
 // myVar = 5 + 10; // assigned 15
 // Change the 0 so that sum will equal 20.
-var sum = 10 + 0;
+var sum = 10 + 10;
 
 // 8 Basic JavaScript: Subtract One Number from Another with JavaScript
 // We can also subtract one number from another.
@@ -135,7 +141,7 @@ var sum = 10 + 0;
 
 // myVar = 12 - 6; // assigned 6
 // Change the 0 so the difference is 12.
-var difference = 45 - 0;
+var difference = 45 - 33;
 
 // 9 Basic JavaScript: Multiply Two Numbers with JavaScript
 // We can also multiply one number by another.
@@ -146,7 +152,7 @@ var difference = 45 - 0;
 
 // myVar = 13 * 13; // assigned 169
 // Change the 0 so that product will equal 80.
-var product = 8 * 0;
+var product = 8 * 10;
 
 // 10 Basic JavaScript: Divide One Number by Another with JavaScript
 // We can also divide one number by another.
@@ -157,7 +163,7 @@ var product = 8 * 0;
 
 // myVar = 16 / 2; // assigned 8
 // Change the 0 so that the quotient is equal to 2.
-var quotient = 66 / 0;
+var quotient = 66 / 33;
 
 
 //11 Basic JavaScript: Increment a Number with JavaScript
@@ -177,7 +183,7 @@ var quotient = 66 / 0;
 var myVar = 87;
 
 // Only change code below this line
-myVar = myVar + 1;
+myVar++;
 
 // 12 Basic JavaScript: Decrement a Number with JavaScript
 // You can easily decrement or decrease a variable by one with the -- operator.
@@ -195,7 +201,7 @@ myVar = myVar + 1;
 var myVar = 11;
 
 // Only change code below this line
-myVar = myVar - 1;
+myVar--;
 
 // 13 Basic JavaScript: Create Decimal Numbers with JavaScript
 // We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as floating point numbers or floats.
@@ -205,6 +211,7 @@ myVar = myVar - 1;
 var ourDecimal = 5.7;
 
 // Only change code below this line
+var myDecimal = 8.5;
 
 //14 Basic JavaScript: Multiply Two Decimals with JavaScript
 // In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
@@ -212,13 +219,13 @@ var ourDecimal = 5.7;
 // Let's multiply two decimals together to get their product.
 
 // Change the 0.0 so that product will equal 5.0.
-var product = 2.0 * 0.0;
+var product = 2.0 * 2.5;
 
 // 15 Basic JavaScript: Divide One Decimal by Another with JavaScript
 // Now let's divide one decimal by another.
 
 // Change the 0.0 so that quotient will equal to 2.2.
-var quotient = 0.0 / 2.0; // Change this line
+var quotient = 4.4 / 2.0; // Change this line
 
 // 16 Basic JavaScript: Finding a Remainder in JavaScript
 // The remainder operator % gives the remainder of the division of two numbers.
@@ -240,7 +247,7 @@ var quotient = 0.0 / 2.0; // Change this line
 // Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator.
 // Only change code below this line
 
-var remainder;
+var remainder = 11 % 3;
 
 // 17 Basic JavaScript: Compound Assignment With Augmented Addition
 // In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
@@ -264,9 +271,9 @@ var b = 17;
 var c = 12;
 
 // Only change code below this line
-a = a + 12;
-b = 9 + b;
-c = c + 7;
+a += 12;
+b += 9;
+c += 7;
 
 // 18 Basic JavaScript: Compound Assignment With Augmented Subtraction
 // Like the += operator, -= subtracts a number from a variable.
@@ -284,9 +291,9 @@ var b = 9;
 var c = 3;
 
 // Only change code below this line
-a = a - 6;
-b = b - 15;
-c = c - 1;
+a -= 6;
+b -= 15;
+c -= 1;
 
 // 19 Basic JavaScript: Compound Assignment With Augmented Multiplication
 // The *= operator multiplies a variable by a number.
@@ -304,9 +311,9 @@ var b = 12;
 var c = 4.6;
 
 // Only change code below this line
-a = a * 5;
-b = 3 * b;
-c = c * 10;
+a *= 5;
+b *= 3;
+c *= 10;
 
 // 20 Basic JavaScript: Compound Assignment With Augmented Division
 // The /= operator divides a variable by another number.
@@ -323,9 +330,9 @@ var b = 108;
 var c = 33;
 
 // Only change code below this line
-a = a / 12;
-b = b / 4;
-c = c / 11;
+a /= 12;
+b /= 4;
+c /= 11;
 
 // 21 Basic JavaScript: Declare String Variables
 // Previously we have used the code
@@ -335,7 +342,8 @@ c = c / 11;
 // "your name" is called a string literal. It is a string because it is a series of zero or more characters enclosed in single or double quotes.
 
 // Create two new string variables: myFirstName and myLastName and assign them the values of your first and last name, respectively.
-
+var myFirstName = 'Ryan';
+var myLastName = "Twele";
 
 
 // 22 Basic JavaScript: Escaping Literal Quotes in Strings
@@ -343,16 +351,16 @@ c = c / 11;
 
 // In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
 
-// var sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+var sampleStr = "Alan said, \"Peter is learning JavaScript\".";
 
 // This signals to JavaScript that the following quote is not the end of the string, but should instead appear inside the string. So if you were to print this to the console, you would get:
 
 // Alan said, "Peter is learning JavaScript".
-// var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 // Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
 
 // I am a "double quoted" string inside "double quotes".
-var myStr = ""; // Change this line
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 
 // 23 Basic JavaScript: Concatenating Strings with Plus Operator
 // In JavaScript, when the + operator is used with a String value, it is called the concatenation operator. You can build a new string out of other strings by concatenating them together.
@@ -365,11 +373,11 @@ var myStr = ""; // Change this line
 
 // Example:
 
-// var ourStr = "I come first. " + "I come second.";
-// // ourStr is "I come first. I come second."
+var ourStr = "I come first. " + "I come second.";
+// ourStr is "I come first. I come second."
 // Build myStr from the strings "This is the start. " and "This is the end." using the + operator.
 
-var myStr; // Change this line
+var myStr = "This is the start. " + "This is the end."; // Change this line
 
 // 24 Basic JavaScript: Concatenating Strings with the Plus Equals Operator
 // We can also use the += operator to concatenate a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
@@ -384,7 +392,8 @@ var myStr; // Change this line
 // // ourStr is now "I come first. I come second."
 // Build myStr over several lines by concatenating these two strings: "This is the first sentence. " and "This is the second sentence." using the += operator. Use the += operator similar to how it is shown in the editor. Start by assigning the first string to myStr, then add on the second string.
 
-var myStr;
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence."
 
 // 25 Basic JavaScript: Constructing Strings with Variables
 // Sometimes you will need to build a string, Mad Libs style. By using the concatenation operator (+), you can insert one or more variables into a string you're building.
@@ -395,8 +404,8 @@ var myStr;
 // var ourStr = "Hello, our name is " + ourName + ", how are you?";
 // // ourStr is now "Hello, our name is Zorkbork, how are you?"
 // Set myName to a string equal to your name and build myStr with myName between the strings "My name is " and " and I am well!"
-var myName;
-var myStr;
+var myName = "Ryan";
+var myStr = "My name is " + myName + " and I am well!";
 
 
 // 26 Basic JavaScript: Appending Variables to Strings
@@ -404,16 +413,18 @@ var myStr;
 
 // Example:
 
-// var anAdjective = "awesome!";
-// var ourStr = "Austin is ";
-// ourStr += anAdjective;
+var anAdjective = "awesome!";
+var ourStr = "Austin is ";
+ourStr += anAdjective;
 // ourStr is now "Austin is awesome!"
 // Set someAdjective to a string of at least 3 characters and append it to myStr using the += operator.
 
 // Change code below this line
 
-var someAdjective;
+var someAdjective = "fun";
 var myStr = "Learning to code is ";
+
+myStr += someAdjective;
 
 // 27 Basic JavaScript: Find the Length of a String
 // You can find the length of a String value by writing .length after the string variable or string literal.
@@ -427,9 +438,9 @@ var myStr = "Learning to code is ";
 var lastNameLength = 0;
 var lastName = "Lovelace";
 
-// Only change code below this line
 
-lastNameLength = lastName;
+
+lastNameLength = lastName.length;
 
 // 28 Basic JavaScript: Use Bracket Notation to Find the First Character in a String
 
@@ -450,20 +461,20 @@ lastNameLength = lastName;
 var firstLetterOfLastName = "";
 var lastName = "Lovelace";
 
-// Only change code below this line
-firstLetterOfLastName = lastName; // Change this line
+
+firstLetterOfLastName = lastName[0]; // Change this line
 
 // 29 Basic JavaScript: Understand String Immutability
 // In JavaScript, String values are immutable, which means that they cannot be altered once created.
 
 // For example, the following code:
 
-// var myStr = "Bob";
-// myStr[0] = "J";
+var myStr = "Bob";
+myStr[0] = "J";
 // cannot change the value of myStr to "Job", because the contents of myStr cannot be altered. Note that this does not mean that myStr cannot be changed, just that the individual characters of a string literal cannot be changed. The only way to change myStr would be to assign it with a new string, like this:
 
-// var myStr = "Bob";
-// myStr = "Job";
+var myStr = "Bob";
+myStr = "Job";
 // Correct the assignment to myStr so it contains the string value of Hello World using the approach shown in the example above.
 
 
@@ -471,7 +482,7 @@ firstLetterOfLastName = lastName; // Change this line
 var myStr = "Jello World";
 
 // Only change code below this line
-myStr[0] = "H"; // Change this line
+myStr = "Hello World"; // Change this line
 // Only change code above this line
 
 //30 Basic JavaScript: Use Bracket Notation to Find the Nth Character in a String
@@ -482,14 +493,14 @@ myStr[0] = "H"; // Change this line
 
 // Example:
 
-// var firstName = "Ada";
-// var secondLetterOfFirstName = firstName[1]; // secondLetterOfFirstName is "d"
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1]; // secondLetterOfFirstName is "d"
 // Let's try to set thirdLetterOfLastName to equal the third letter of the lastName variable using bracket notation.
 // Setup
 var lastName = "Lovelace";
 
 // Only change code below this line
-var thirdLetterOfLastName = lastName; // Change this line
+var thirdLetterOfLastName = lastName[2]; // Change this line
 
 // 31 Basic JavaScript: Use Bracket Notation to Find the Last Character in a String
 // In order to get the last letter of a string, you can subtract one from the string's length.
@@ -498,16 +509,16 @@ var thirdLetterOfLastName = lastName; // Change this line
 
 // Example:
 
-// var firstName = "Charles";
-// var lastLetter = firstName[firstName.length - 1]; // lastLetter is "s"
+var firstName = "Charles";
+var lastLetter = firstName[firstName.length - 1]; // lastLetter is "s"
 // Use bracket notation to find the last character in the lastName variable.
 
 // Hint: Try looking at the example above if you get stuck.
 // Setup
 var lastName = "Lovelace";
 
-// Only change code below this line
-var lastLetterOfLastName = lastName; // Change this line
+
+var lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
 
 // 32 Basic JavaScript: Use Bracket Notation to Find the Nth-to-Last Character in a String
 // You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
@@ -524,8 +535,8 @@ var lastLetterOfLastName = lastName; // Change this line
 // Setup
 var lastName = "Lovelace";
 
-// Only change code below this line
-var secondToLastLetterOfLastName = lastName; // Change this line
+
+var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
 
 // 33 Basic JavaScript: Word Blanks
 // var wordBlanks = "the" + ' '+ myNoun +" "+ myAdjective+ " " + myVerb +" "+ myAdverb; // Change this line
@@ -548,8 +559,8 @@ var myAdjective = "big";
 var myVerb = "ran";
 var myAdverb = "quickly";
 
-// Only change code below this line
-var wordBlanks = ""; // Change this line
+
+var wordBlanks = "The " + myAdjective + " " + myNoun + " " + "got scared and " + myVerb + " " + myAdverb; // Change this line
 // Only change code above this line
 
 // 34 Basic JavaScript: Store Multiple Values in one Variable using JavaScript Arrays
@@ -557,11 +568,11 @@ var wordBlanks = ""; // Change this line
 
 // You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry, like this:
 
-// var sandwich = ["peanut butter", "jelly", "bread"].
+var sandwich = ["peanut butter", "jelly", "bread"].
 
 // Modify the new array myArray so that it contains both a string and a number (in that order).
 // Only change code below this line
-var myArray = [];
+var myArray = ["Hello World", 8];
 
 // 35 Basic JavaScript: Nest one Array within Another Array
 // You can also nest arrays within other arrays, like below:
@@ -572,7 +583,7 @@ var myArray = [];
 // Create a nested array called myArray.
 
 // Only change code below this line
-var myArray = [];
+var myArray = [[18], ["Hello Class"]];
 
 // 36 Basic JavaScript: Access Array Data with Indexes
 // We can access the data inside arrays using indexes.
@@ -582,9 +593,9 @@ var myArray = [];
 
 // Example
 
-// var array = [50,60,70];
-// array[0]; // equals 50
-// var data = array[1]; 
+var array = [50,60,70];
+array[0]; // equals 50
+var data = array[1]; 
 // equals 60
 
 // Create a variable called myData and set it to equal the first value of myArray using bracket notation.
@@ -593,32 +604,32 @@ var myArray = [];
 var myArray = [50,60,70];
 
 // Only change code below this line
-
+var myData = myArray[0];
 // 37 Basic JavaScript: Modify Array Data With Indexes
 // Unlike strings, the entries of arrays are mutable and can be changed freely.
 
 // Example
 
-// var ourArray = [50,40,30];
-// ourArray[0] = 15; // equals [15,40,30]
+ var ourArray = [50,40,30];
+ourArray[0] = 15; // equals [15,40,30]
 
 // Modify the data stored at index 0 of myArray to a value of 45.
 // Setup
 var myArray = [18,64,99];
 
 // Only change code below this line
-
+myArray[0] = 45;
 // 38 Basic JavaScript: Access Multi-Dimensional Arrays With Indexes
 // One way to think of a multi-dimensional array, is as an array of arrays. When you use brackets to access your array, the first set of brackets refers to the entries in the outer-most (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
 // Example
 
-// var arr = [
-//   [1,2,3],
-//   [4,5,6],
-//   [7,8,9],
-//   [[10,11,12], 13, 14]
-// ];
+ var arr = [
+   [1,2,3],
+   [4,5,6],
+   [7,8,9],
+   [[10,11,12], 13, 14]
+ ];
 // arr[3]; // equals [[10,11,12], 13, 14]
 // arr[3][0]; // equals [10,11,12]
 // arr[3][0][1]; // equals 11
@@ -627,7 +638,7 @@ var myArray = [18,64,99];
 var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 
 // Only change code below this line
-var myData = myArray[0][0];
+var myData = myArray[2][1];
 
 // 39 Basic JavaScript: Manipulate Arrays With push()
 // An easy way to append data to the end of an array is via the push() function.
@@ -635,12 +646,12 @@ var myData = myArray[0][0];
 // .push() takes one or more parameters and "pushes" them onto the end of the array.
 // Examples:
 
-// var arr1 = [1,2,3];
-// arr1.push(4);
+var arr1 = [1,2,3];
+arr1.push(4);
 // arr1 is now [1,2,3,4]
 
-// var arr2 = ["Stimpson", "J", "cat"];
-// arr2.push(["happy", "joy"]);
+var arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
 // arr2 now equals ["Stimpson", "J", "cat", ["happy", "joy"]]
 
 // Push ["dog", 3] onto the end of the myArray variable.
@@ -648,7 +659,7 @@ var myData = myArray[0][0];
 var myArray = [["John", 23], ["cat", 2]];
 
 // Only change code below this line
-
+myArray.push(["dog", 3]);
 // 40 Basic JavaScript: Manipulate Arrays With pop()
 // Another way to change the data in an array is with the .pop() function.
 
@@ -656,8 +667,8 @@ var myArray = [["John", 23], ["cat", 2]];
 
 // Any type of entry can be "popped" off of an array - numbers, strings, even nested arrays.
 
-// var threeArr = [1, 4, 6];
-// var oneDown = threeArr.pop();
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
 // console.log(oneDown); // Returns 6
 // console.log(threeArr); // Returns [1, 4]
 // Use the .pop() function to remove the last item from myArray, assigning the "popped off" value to removedFromMyArray.
@@ -665,7 +676,7 @@ var myArray = [["John", 23], ["cat", 2]];
 var myArray = [["John", 23], ["cat", 2]];
 
 // Only change code below this line
-var removedFromMyArray;
+var removedFromMyArray = myArray.pop();
 
 // 41 Basic JavaScript: Manipulate Arrays With shift()
 // pop() always removes the last element of an array. What if you want to remove the first?
@@ -674,8 +685,8 @@ var removedFromMyArray;
 
 // Example:
 
-// var ourArray = ["Stimpson", "J", ["cat"]];
-// var removedFromOurArray = ourArray.shift();
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
 // // removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
 
 // Use the .shift() function to remove the first item from myArray, assigning the "shifted off" value to removedFromMyArray.
@@ -684,7 +695,7 @@ var removedFromMyArray;
 var myArray = [["John", 23], ["dog", 3]];
 
 // Only change code below this line
-var removedFromMyArray;
+var removedFromMyArray = myArray.shift();
  
 // 42 Basic JavaScript: Manipulate Arrays With unshift()
 // Not only can you shift elements off of the beginning of an array, you can also unshift elements to the beginning of an array i.e. add elements in front of the array.
@@ -693,9 +704,9 @@ var removedFromMyArray;
 
 // Example:
 
-// var ourArray = ["Stimpson", "J", "cat"];
-// ourArray.shift(); // ourArray now equals ["J", "cat"]
-// ourArray.unshift("Happy");
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); // ourArray now equals ["J", "cat"]
+ourArray.unshift("Happy");
 // // ourArray now equals ["Happy", "J", "cat"]
 
 // Add ["Paul",35] to the beginning of the myArray variable using unshift().
@@ -704,7 +715,7 @@ var myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 
 // Only change code below this line
-
+myArray.unshift(["Paul", 35]);
 
 
 // 43 Basic JavaScript: Shopping List
@@ -716,21 +727,29 @@ myArray.shift();
 
 // There should be at least 5 sub-arrays in the list.
 
-var myList = [];
+var myList = [
+              ["Chocolate Bar", 8],
+              ["Bananas", 15],
+              ["Apples", 7],
+              ["Oranges", 10],
+              ["Lemons", 3]
+            ];
 
 // 44 Basic JavaScript: Write Reusable JavaScript with Functions
 // In JavaScript, we can divide up our code into reusable parts called functions.
 
 // Here's an example of a function:
 
-// function functionName() {
-//   console.log("Hello World");
-// }
+ function functionName() {
+   console.log("Hello World");
+ }
 // You can call or invoke this function by using its name followed by parentheses, like this: functionName(); Each time the function is called it will print out the message "Hello World" on the dev console. All of the code between the curly braces will be executed every time the function is called.
 
 // Create a function called reusableFunction which prints "Hi World" to the dev console.
 // Call the function.
-
+function reusableFunction() {
+  console.log("Hi World");
+}
 
 
 // 45 Basic JavaScript: Passing Values to Functions with Arguments
@@ -738,14 +757,16 @@ var myList = [];
 // Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "passed") into a function when it is called are known as arguments.
 // Here is a function with two parameters, param1 and param2:
 
-// function testFun(param1, param2) {
-//   console.log(param1, param2);
-// }
+function testFun(param1, param2) {
+   console.log(param1, param2);
+}
 // Then we can call testFun: testFun("Hello", "World"); We have passed two arguments, "Hello" and "World". Inside the function, param1 will equal "Hello" and param2 will equal "World". Note that you could call testFun again with different arguments and the parameters would take on the value of the new arguments.
 
 // Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
 // Call the function with two numbers as arguments.
-
+function functionWithArgs(arg1, arg2) {
+  console.log(arg1 + arg2);
+}
 
 
 // 46 Basic JavaScript: Global Scope and Functions
@@ -758,11 +779,11 @@ var myList = [];
 // Inside function fun1, assign 5 to oopsGlobal without using the var keyword.
 
 // Declare the myGlobal variable below this line
-
+var myGlobal = 10;
 
 function fun1() {
     // Assign 5 to oopsGlobal Here
-  
+    oopsGlobal = 5;
   }
   
   // Only change code above this line
@@ -796,7 +817,7 @@ function fun1() {
 function myLocalScope() {
 
     // Only change code below this line
-  
+    var myVar = 9;
     console.log('inside myLocalScope', myVar);
   }
   myLocalScope();
@@ -811,11 +832,11 @@ function myLocalScope() {
 
 // In this example:
 
-// var someVar = "Hat";
-// function myFun() {
-//   var someVar = "Head";
-//   return someVar;
-// }
+var someVar = "Hat";
+ function myFun() {
+   var someVar = "Head";
+   return someVar;
+}
 // The function myFun will return "Head" because the local version of the variable is present.
 
 // Add a local variable to myOutfit function to override the value of outerWear with "sweater".
@@ -825,7 +846,7 @@ var outerWear = "T-Shirt";
 function myOutfit() {
   // Only change code below this line
 
-
+  var outerWear = "sweater";
 
   // Only change code above this line
   return outerWear;
@@ -845,8 +866,11 @@ myOutfit();
 // plusThree takes an argument for num and returns a value equal to num + 3.
 
 // Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value. See the last line in the editor for an example of how you can test your timesFive function.
+function timesFive(num) {
+  return num * 5;
+}
 
-
+timesFive(3);
 
 // 50 Basic JavaScript: Understanding Undefined Value returned from a Function
 // A function can include the return statement but it does not have to. In the case that the function doesn't have a return statement, when you call it, the function processes the inner code but the returned value is undefined.
@@ -870,7 +894,9 @@ function addThree() {
 }
 
 // Only change code below this line
-
+function addFive() {
+  sum = sum + 5;
+}
 
 // Only change code above this line
 
@@ -897,7 +923,7 @@ function processArg(num) {
 }
 
 // Only change code below this line
-
+processed = processArg(7);
 
 // 52 Basic JavaScript: Stand in Line
 // In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
@@ -910,8 +936,11 @@ function processArg(num) {
 
 function nextInLine(arr, item) {
     // Only change code below this line
+    arr.push(item);
+
+    var removed = arr.shift();
     
-    return item;
+    return removed;
     // Only change code above this line
     
   
@@ -936,7 +965,7 @@ function welcomeToBooleans() {
 
     // Only change code below this line
   
-    return false; // Change this line
+    return true; // Change this line
   
     // Only change code above this line
   }
@@ -966,7 +995,11 @@ function welcomeToBooleans() {
 // Create an if statement inside the function to return "Yes, that was true" if the parameter wasThatTrue is true and return "No, that was false" otherwise.
 function trueOrFalse(wasThatTrue) {
     // Only change code below this line
-  
+    if(wasThatTrue){
+      return "Yes, that was true";
+    }
+
+      return "No, that was flase";
   
   
     // Only change code above this line
@@ -995,7 +1028,7 @@ function trueOrFalse(wasThatTrue) {
 
 // Setup
 function testEqual(val) {
-    if (val) { // Change this line
+    if (val == 12) { // Change this line
       return "Equal";
     }
     return "Not Equal";
@@ -1019,7 +1052,7 @@ function testEqual(val) {
 // Use the strict equality operator in the if statement so the function will return "Equal" when val is strictly equal to 7
 // Setup
 function testStrict(val) {
-    if (val) { // Change this line
+    if (val === 7) { // Change this line
       return "Equal";
     }
     return "Not Equal";
@@ -1044,7 +1077,7 @@ function testStrict(val) {
 // The compareEquality function in the editor compares two values using the equality operator. Modify the function so that it returns "Equal" only when the values are strictly equal.
 // Setup
 function compareEquality(a, b) {
-    if (a == b) { // Change this line
+    if (a === b) { // Change this line
       return "Equal";
     }
     return "Not Equal";
@@ -1067,7 +1100,7 @@ function compareEquality(a, b) {
 
 // Setup
 function testNotEqual(val) {
-    if (val) { // Change this line
+    if (val != 99) { // Change this line
       return "Not Equal";
     }
     return "Equal";
@@ -1088,7 +1121,7 @@ function testNotEqual(val) {
 
 // Setup
 function testStrictNotEqual(val) {
-    if (val) { // Change this line
+    if (val !== 17) { // Change this line
       return "Not Equal";
     }
     return "Equal";
@@ -1110,11 +1143,11 @@ function testStrictNotEqual(val) {
 // Add the greater than operator to the indicated lines so that the return statements make sense.
 
 function testGreaterThan(val) {
-    if (val) {  // Change this line
+    if (val > 100) {  // Change this line
       return "Over 100";
     }
   
-    if (val) {  // Change this line
+    if (val > 10) {  // Change this line
       return "Over 10";
     }
   
@@ -1137,11 +1170,11 @@ function testGreaterThan(val) {
 // Add the greater than or equal to operator to the indicated lines so that the return statements make sense.
 
 function testGreaterOrEqual(val) {
-    if (val) {  // Change this line
+    if (val >= 20) {  // Change this line
       return "20 or Over";
     }
   
-    if (val) {  // Change this line
+    if (val >= 10) {  // Change this line
       return "10 or Over";
     }
   
@@ -1163,11 +1196,11 @@ function testGreaterOrEqual(val) {
 
 // Add the less than operator to the indicated lines so that the return statements make sense.
 function testLessThan(val) {
-    if (val) {  // Change this line
+    if (val < 25) {  // Change this line
       return "Under 25";
     }
   
-    if (val) {  // Change this line
+    if (val < 55) {  // Change this line
       return "Under 55";
     }
   
@@ -1189,11 +1222,11 @@ function testLessThan(val) {
 // Add the less than or equal to operator to the indicated lines so that the return statements make sense.
 
 function testLessOrEqual(val) {
-    if (val) {  // Change this line
+    if (val <= 12) {  // Change this line
       return "Smaller Than or Equal to 12";
     }
   
-    if (val) {  // Change this line
+    if (val <= 24) {  // Change this line
       return "Smaller Than or Equal to 24";
     }
   
@@ -1225,10 +1258,8 @@ function testLessOrEqual(val) {
 function testLogicalAnd(val) {
     // Only change code below this line
   
-    if (val) {
-      if (val) {
-        return "Yes";
-      }
+    if (val <= 50 && val >= 25) {
+      return "Yes";
     }
   
     // Only change code above this line
@@ -1261,13 +1292,11 @@ function testLogicalAnd(val) {
 function testLogicalOr(val) {
     // Only change code below this line
   
-    if (val) {
+    if (val < 10 || val > 20) {
       return "Outside";
     }
   
-    if (val) {
-      return "Outside";
-    }
+
   
     // Only change code above this line
     return "Inside";
@@ -1290,14 +1319,16 @@ function testElse(val) {
   
     if (val > 5) {
       result = "Bigger than 5";
+      return result;
+    } else {
+      result = "5 or smaller";
+      return result;
     }
   
-    if (val <= 5) {
-      result = "5 or Smaller";
-    }
+
   
     // Only change code above this line
-    return result;
+    
   }
   
   testElse(4);
@@ -1316,13 +1347,11 @@ function testElse(val) {
 function testElseIf(val) {
     if (val > 10) {
       return "Greater than 10";
-    }
-  
-    if (val < 5) {
+    } else if (val < 5) {
       return "Smaller than 5";
+    } else {  
+      return "Between 5 and 10";
     }
-  
-    return "Between 5 and 10";
   }
   
   testElseIf(7);
@@ -1362,10 +1391,10 @@ function testElseIf(val) {
 // bar(0) // "Less than two"
 // Change the order of logic in the function so that it will return the correct statements in all cases.
 function orderMyLogic(val) {
-    if (val < 10) {
-      return "Less than 10";
-    } else if (val < 5) {
+    if (val < 5) {
       return "Less than 5";
+    } else if (val < 10) {
+      return "Less than 10";
     } else {
       return "Greater than or equal to 10";
     }
@@ -1396,9 +1425,17 @@ function orderMyLogic(val) {
 
 function testSize(num) {
     // Only change code below this line
-  
-  
-    return "Change Me";
+    if(num < 5){
+      return "Tiny";
+    } else if (num < 10){
+      return "Small";
+    } else if (num < 15){
+      return "Medium";
+    } else if (num < 20){
+      return "Large";
+    } else {
+      return "Huge";
+    }
     // Only change code above this line
   }
   
@@ -1421,9 +1458,22 @@ function testSize(num) {
 var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 function golfScore(par, strokes) {
   // Only change code below this line
+  if (strokes == 1){
+    return "Hole-in-one";
+  } else if (strokes <= par - 2){
+    return "Eagle";
+  } else if (strokes == par - 1){
+    return "Birdie";
+  } else if (strokes == par){
+    return "Par";
+  } else if (strokes == par + 1){
+    return "Bogey";
+  } else if  (strokes == par + 2){
+    return "Double Bogey";
+  } else {
+    return "Go Home!";
+  }
 
-
-  return "Change Me";
   // Only change code above this line
 }
 
@@ -1456,7 +1506,20 @@ golfScore(5, 4);
 function caseInSwitch(val) {
     var answer = "";
     // Only change code below this line
-  
+  switch(val){
+    case 1:
+      return "Alpha";
+      break;
+    case 2:
+      return "Beta";
+      break;
+    case 3:
+      return "Gamma";
+      break;
+    case 4:
+      return "Delta";
+      break;
+  }
   
   
     // Only change code above this line
@@ -1490,7 +1553,19 @@ function caseInSwitch(val) {
   function switchOfStuff(val) {
     var answer = "";
     // Only change code below this line
-  
+  switch(val){
+    case 'a':
+      return "Apple";
+      break;
+    case 'b':
+      return "bird";
+      break;
+    case 'c':
+      return "Cat";
+      break;
+    default:
+      return "Stuff";
+  }
   
   
     // Only change code above this line
@@ -1525,7 +1600,23 @@ function caseInSwitch(val) {
   function sequentialSizes(val) {
     var answer = "";
     // Only change code below this line
-  
+  switch(val){
+    case 1:
+    case 2:
+    case 3:
+      return "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      return "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      return "High";
+      break;
+  }
   
   
     // Only change code above this line
@@ -1564,17 +1655,36 @@ function caseInSwitch(val) {
     var answer = "";
     // Only change code below this line
   
-    if (val === "bob") {
-      answer = "Marley";
-    } else if (val === 42) {
-      answer = "The Answer";
-    } else if (val === 1) {
-      answer = "There is no #1";
-    } else if (val === 99) {
-      answer = "Missed me by this much!";
-    } else if (val === 7) {
-      answer = "Ate Nine";
+    // if (val === "bob") {
+    //   answer = "Marley";
+    // } else if (val === 42) {
+    //   answer = "The Answer";
+    // } else if (val === 1) {
+    //   answer = "There is no #1";
+    // } else if (val === 99) {
+    //   answer = "Missed me by this much!";
+    // } else if (val === 7) {
+    //   answer = "Ate Nine";
+    // }
+
+    switch(val){
+      case 'bob':
+        answer = "Marley";
+        break;
+      case 42:
+        answer = "The Answer";
+        break;
+      case 1:
+        answer = "There is no #1";
+        break;
+      case 99:
+        answer = " Missed me by this much!";
+        break;
+      case 7:
+        answer = "Ate nine";
+        break;
     }
+
   
     // Only change code above this line
     return answer;
@@ -1604,11 +1714,7 @@ function caseInSwitch(val) {
   
   function isLess(a, b) {
     // Only change code below this line
-    if (a < b) {
-      return true;
-    } else {
-      return false;
-    }
+    return a < b;
     // Only change code above this line
   }
   
@@ -1623,7 +1729,7 @@ function caseInSwitch(val) {
   // function myFun() {
   //   console.log("Hello");
   //   return "World";
-  //   console.log("byebye")
+  //   console.log("byebye");
   // }
   // myFun();
   // The above outputs "Hello" to the console, returns "World", but "byebye" is never output, because the function exits at the return statement.
@@ -1635,7 +1741,9 @@ function caseInSwitch(val) {
   // Setup
   function abTest(a, b) {
     // Only change code below this line
-  
+    if (a < 0 || b < 0){
+      return undefined;
+    }
   
   
     // Only change code above this line
@@ -1671,9 +1779,28 @@ function caseInSwitch(val) {
   
   function cc(card) {
     // Only change code below this line
+    switch(card){
+      case 2:
+      case 3:
+      case 4:
+      case 5:
+      case 6:
+        count++;
+        break;
+      case 10:
+      case "J":
+      case "Q":
+      case "K":
+      case "A":
+        count--;
+        break;
+    }
   
-  
-    return "Change Me";
+    if(count > 0){
+      return count + " Bet";
+    } else {
+      return count + " Hold";
+    }
     // Only change code above this line
   }
   
@@ -1699,7 +1826,7 @@ function caseInSwitch(val) {
   // var anotherObject = {
   //   make: "Ford",
   //   5: "five",
-  //   "model": "focus"
+  //   model: "focus"
   // };
   // However, if your object has any non-string properties, JavaScript will automatically typecast them as strings.
   
@@ -1709,7 +1836,10 @@ function caseInSwitch(val) {
   
   var myDog = {
     // Only change code below this line
-    
+    'name': "Baxter",
+    'legs': 4,
+    'tails': 1,
+    'friends': ["Man", "birds"]
     
     // Only change code above this line
     };
@@ -1738,8 +1868,8 @@ function caseInSwitch(val) {
   
   // Only change code below this line
   
-  var hatValue = testObj;      // Change this line
-  var shirtValue = testObj;    // Change this line
+  var hatValue = testObj.hat;      // Change this line
+  var shirtValue = testObj.shirt;    // Change this line
   
   // 80 Basic JavaScript: Accessing Object Properties with Bracket Notation
   // The second way to access the properties of an object is bracket notation ([]). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
@@ -1756,6 +1886,7 @@ function caseInSwitch(val) {
   // myObj["Space Name"]; // Kirk
   // myObj['More Space']; // Spock
   // myObj["NoSpace"];    // USS Enterprise
+  
   // Note that property names with spaces in them must be in quotes (single or double).
   
   // Read the values of the properties "an entree" and "the drink" of testObj using bracket notation and assign them to entreeValue and drinkValue respectively.
@@ -1769,8 +1900,8 @@ function caseInSwitch(val) {
   
   // Only change code below this line
   
-  var entreeValue = testObj;   // Change this line
-  var drinkValue = testObj;    // Change this line
+  var entreeValue = testObj["an entree"];   // Change this line
+  var drinkValue = testObj["the drink"];    // Change this line
   
   
   // 81 Basic JavaScript: Accessing Object Properties with Variables
@@ -1807,8 +1938,8 @@ function caseInSwitch(val) {
   
   // Only change code below this line
   
-  var playerNumber;       // Change this line
-  var player = testObj;   // Change this line
+  var playerNumber = 16;       // Change this line
+  var player = testObj[playerNumber];   // Change this line
   
   // 82 Basic JavaScript: Updating Object Properties
   // After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
@@ -1834,7 +1965,8 @@ function caseInSwitch(val) {
   };
   
   // Only change code below this line
-  
+  myDog.name = "Happy Coder";
+  myDog["name"] = "Happy Coder";
   
   // 83 Basic JavaScript: Add New Properties to a JavaScript Object
   // You can add new properties to existing JavaScript objects the same way you would modify them.
@@ -1869,7 +2001,8 @@ function caseInSwitch(val) {
   };
   
   // Only change code below this line
-  
+  myDog.bark = "woof";
+  myDog["bark"] = 'woof';
   
   // 84 Basic JavaScript: Delete Properties from a JavaScript Object
   // We can also delete properties from objects like this:
@@ -1906,7 +2039,8 @@ function caseInSwitch(val) {
   };
   
   // Only change code below this line
-  
+  delete myDog.tails;
+  delete myDog['tails'];
   
   
   // 85 Basic JavaScript: Using Objects for Lookups
@@ -1936,25 +2070,36 @@ function caseInSwitch(val) {
     var result = "";
   
     // Only change code below this line
-    switch(val) {
-      case "alpha":
-        result = "Adams";
-        break;
-      case "bravo":
-        result = "Boston";
-        break;
-      case "charlie":
-        result = "Chicago";
-        break;
-      case "delta":
-        result = "Denver";
-        break;
-      case "echo":
-        result = "Easy";
-        break;
-      case "foxtrot":
-        result = "Frank";
+    // switch(val) {
+    //   case "alpha":
+    //     result = "Adams";
+    //     break;
+    //   case "bravo":
+    //     result = "Boston";
+    //     break;
+    //   case "charlie":
+    //     result = "Chicago";
+    //     break;
+    //   case "delta":
+    //     result = "Denver";
+    //     break;
+    //   case "echo":
+    //     result = "Easy";
+    //     break;
+    //   case "foxtrot":
+    //     result = "Frank";
+    // }
+
+    var lookup = {
+      "alpha": "Adams",
+      "bravo": "Boston",
+      "charlie": "Chicago",
+      "delta": "Dener",
+      "echo": "Easy",
+      "foxtrot": "Frank"
     }
+    result = lookup[val];
+
   
     // Only change code above this line
     return result;
@@ -1976,7 +2121,7 @@ function caseInSwitch(val) {
   // Modify the function checkObj to test if an object passed to the function (obj) contains a specific property (checkProp). If the property is found, return that property's value. If not, return "Not Found".
   function checkObj(obj, checkProp) {
     // Only change code below this line
-    return "Change Me!";
+    return obj.hasOwnProperty(checkProp);
     // Only change code above this line
   }
   
@@ -2027,8 +2172,15 @@ function caseInSwitch(val) {
         "LP"
       ],
       "gold": true
-    }
+    },
     // Add a record here
+    {
+      "artist": "Billy Joel", 
+      "title": "Rain Man",
+      "release_year": 1973,
+      "formats": ["CD", "8T", "LP"],
+      "gold": true
+    }
   ];
   
   
@@ -2067,7 +2219,7 @@ function caseInSwitch(val) {
     }
   };
   
-  var gloveBoxContents = undefined; // Change this line
+  var gloveBoxContents = myStorage.car.inside["glove box"]; // Change this line
   
   // 89 Basic JavaScript: Accessing Nested Arrays
   // As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, Array bracket notation can be chained to access nested arrays.
@@ -2117,7 +2269,7 @@ function caseInSwitch(val) {
   
   // Only change code below this line
   
-  var secondTree = ""; // Change this line
+  var secondTree = myPlants[1].list[1]; // Change this line
   
   
   // 90 Basic JavaScript: Record Collection
@@ -2154,6 +2306,22 @@ function caseInSwitch(val) {
   
   // Only change code below this line
   function updateRecords(object, id, prop, value) {
+    //if prop isn't tracks and value isn't an empty string, update or set that album's prop to value
+    if(prop !== "tracks" && value !== ""){
+      object[id][prop] = value;
+    }
+    // if prop is tracks but the album doesn't have a tracks property, create an empty array and add value to it
+    else if (prop === 'tracks' && !object[id].hasOwnProperty("tracks")){
+      object[id][prop] = [value];
+    }
+    //if prop is tracks and value isn't an empty string, add value to the end of the album's existing tracks array
+    else if (prop === 'tracks' && value !== ''){
+      object[id][prop].push(value);
+    }
+    //if value is an empty string, delete the given prop property from the album
+    else if(value === ''){
+      delete object[id][prop];
+    }
     return object;
   }
   
@@ -2178,6 +2346,11 @@ function caseInSwitch(val) {
   // Add the numbers 5 through 0 (inclusive) in descending order to myArray using a while loop.
   // Setup
   var myArray = [];
+  var i = 5;
+  while(i >= 0){
+    myArray.push(i);
+    i--;
+  }
   
   // Only change code below this line
   
@@ -2209,6 +2382,9 @@ function caseInSwitch(val) {
   
   // Setup
   var myArray = [];
+  for(var i = 1; i < 6; i++){
+    myArray.push(i);
+  }
   
   // Only change code below this line
   
@@ -2226,7 +2402,9 @@ function caseInSwitch(val) {
   // Push the odd numbers from 1 through 9 to myArray using a for loop.
   // Setup
   var myArray = [];
-  
+  for(var i = 1; i < 10; i += 2){
+    myArray.push(i);
+  }
   // Only change code below this line
   
   
@@ -2246,7 +2424,9 @@ function caseInSwitch(val) {
   // Push the odd numbers from 9 through 1 to myArray using a for loop.
   // Setup
   var myArray = [];
-  
+  for (var i = 9; i > 0; i -= 2){
+    myArray.push(i);
+  }
   // Only change code below this line
   
   
@@ -2264,7 +2444,10 @@ function caseInSwitch(val) {
   
   // Setup
   var myArr = [ 2, 3, 4, 5, 6];
-  
+  var total = 0;
+  for(var i = 0; i < myArr.length; i++){
+    total += myArr[i];
+  }
   // Only change code below this line
   
   // 96 Basic JavaScript: Nesting For Loops
@@ -2286,7 +2469,11 @@ function caseInSwitch(val) {
   function multiplyAll(arr) {
     var product = 1;
     // Only change code below this line
-  
+    for(var i = 0; i < arr.length; i++){
+      for(var j = 0; j < arr[i].length; j++){
+        product = product * arr[i][j];
+      }
+    }
     // Only change code above this line
     return product;
   }
@@ -2327,10 +2514,10 @@ function caseInSwitch(val) {
   var i = 10;
   
   // Only change code below this line
-  while (i < 5) {
+  do {
     myArray.push(i);
     i++;
-  }
+  } while (i < 10);
   
   // 98 Basic JavaScript: Replace Loops using Recursion
   // Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first n elements of an array to create the product of those elements. Using a for loop, you could do this:
@@ -2359,7 +2546,11 @@ function caseInSwitch(val) {
   
   function sum(arr, n) {
     // Only change code below this line
-  
+    if(n <= 0){
+      return 0;
+    } else {
+      return sum(arr, n - 1) + arr[n - 1]
+    }
     // Only change code above this line
   }
   
@@ -2404,9 +2595,20 @@ function caseInSwitch(val) {
   ];
   
   
-  function lookUpProfile(name, prop){
-  // Only change code below this line
   
+  // Only change code below this line
+  function lookUpProfile(name, prop) {
+    for (let x = 0; x < contacts.length; x++) {
+      if (contacts[x].firstName === name) {
+        if (contacts[x].hasOwnProperty(prop)) {
+          return contacts[x][prop];
+        } else {
+          return "No such property";
+        }
+      }
+    }
+    return "No such contact";
+  }
   // Only change code above this line
   }
   
@@ -2425,7 +2627,7 @@ function caseInSwitch(val) {
   
     // Only change code below this line
   
-    return 0;
+    return Math.random();
   
     // Only change code above this line
   }
@@ -2449,7 +2651,7 @@ function caseInSwitch(val) {
   
     // Only change code below this line
   
-    return Math.random();
+    return Math.floor(Math.random() * 10);
   }
   
   // 102 Basic JavaScript: Generate Random Whole Numbers within a Range
@@ -2465,7 +2667,7 @@ function caseInSwitch(val) {
   
   function randomRange(myMin, myMax) {
     // Only change code below this line
-    return 0;
+    return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
     // Only change code above this line
   }
   
@@ -2478,7 +2680,7 @@ function caseInSwitch(val) {
   
   // Use parseInt() in the convertToInteger function so it converts the input string str into an integer, and returns it.
   function convertToInteger(str) {
-  
+    return parseInt(str);
   }
   
   convertToInteger("56");
@@ -2498,7 +2700,7 @@ function caseInSwitch(val) {
   
   // Use parseInt() in the convertToInteger function so it converts a binary number to an integer and returns it.
   function convertToInteger(str) {
-  
+    return parseInt(str, 2);
   }
   
   convertToInteger("10011");
@@ -2528,7 +2730,7 @@ function caseInSwitch(val) {
   // Use the conditional operator in the checkEqual function to check if two numbers are equal or not. The function should return either "Equal" or "Not Equal".
   
   function checkEqual(a, b) {
-  
+    return a === b ? "Equal" : "Not equal"
   }
   
   checkEqual(1, 2);
@@ -2556,7 +2758,13 @@ function caseInSwitch(val) {
   
   // Only change code below this line
   function countdown(n){
-    return;
+    if (n < 1){
+      return [];
+    } else {
+      var arr = countdown(n -1);
+      arr.unshift(n);
+      return arr;
+    }
   }
   // Only change code above this line
   
@@ -2567,5 +2775,21 @@ function caseInSwitch(val) {
   
   // We have defined a function named rangeOfNumbers with two parameters. The function should return an array of integers which begins with a number represented by the startNum parameter and ends with a number represented by the endNum parameter. The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both startNum and endNum are the same.
   function rangeOfNumbers(startNum, endNum) {
-    return [];
+    if(endNum - startNum === 0){
+      return [startNum];
+    } else {
+      var numbers = rangeOfNumbers(startNum, endNum - 1);
+      numbers.push(endNum);
+      return numbers;
+    }
   };
+
+  function countdown(n) {
+    if (n < 1){
+      return [];
+    } else {
+      var arr = countdown(n - 1);
+      arr.unshift(n);
+      return arr;
+    }
+  }
